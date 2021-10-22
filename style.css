@@ -7,8 +7,58 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-
+body {
+	background-color: hsl(257, 40%, 49%);
+	color: #fff;
+	text-align: center;
+	
+}
+.wrapper {
+	width: 375px;
+	margin: 0 auto;
+	background-image: url('images/bg-mobile.svg');
+	background-size: auto;
+	background-repeat: no-repeat;
+	
+}
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8rem;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	
+}
+header {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 100px;
+	align-items: center;
+	margin-bottom: 10px;
+}
+header img {
+		width: 150px;
+		position: relative;
+	}
+.hero, .info {
+	padding: 0px 20px;
+}
+.hero img {
+	max-width: 100%;
+}
+.info p {
+	line-height: 28px;
+	font-size: 1.2rem;
+}
+.info button {
+	width: 250px;
+	height: 40px;
+	border-radius: 19px;
+	color: hsl(257, 40%, 49%);
+	border: none;
+	margin-top: 20px;
+	box-shadow: 5px 10px 18px #131313;
+}
 
 
 

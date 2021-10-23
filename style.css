@@ -93,7 +93,8 @@ footer {
     
 	body {
 		background-image: url('images/bg-desktop.svg');
-		background-size: auto;
+		background-size: cover;
+		
 		background-repeat: no-repeat;
 		text-align: left;
 	}

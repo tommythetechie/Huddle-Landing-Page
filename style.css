@@ -91,9 +91,41 @@ footer {
 
 @media screen and (min-width: 1440px) {
     
+	body {
+		background-image: url('images/bg-desktop.svg');
+		background-size: auto;
+		background-repeat: no-repeat;
+		text-align: left;
+	}
 	.wrapper {
-		min-width: 860px;
-		margin-top: 140px;
+		min-width: 960px;
+		margin-top: 40px;
+		background-image: none;
+		
   }
+	
+	main {
+		display: grid;
+		grid-template-columns: 480px 480px;
+		grid-template-rows: 450px;
+		
+	}
+	header img {
+		width: 190px;
+		position: relative;
+	}
+	.hero {
+		
+		padding-left: 0px;
+	}
+	.info {
+		padding-right: 0px;
+	}
+	footer {
+	display: grid;
+	grid-template-columns: 75px 75px 75px;
+	grid-template-rows: 50px;
+	justify-content: end;
+}
 	
 }

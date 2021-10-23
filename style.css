@@ -46,6 +46,9 @@ header img {
 .hero img {
 	max-width: 100%;
 }
+.info {
+	margin-bottom: 85px;
+}
 .info p {
 	line-height: 28px;
 	font-size: 1.2rem;
@@ -59,9 +62,31 @@ header img {
 	margin-top: 20px;
 	box-shadow: 5px 10px 18px #131313;
 }
+footer {
+	display: grid;
+	grid-template-columns: 75px 75px 75px;
+	grid-template-rows: 50px;
+	justify-content: center;
+}
 
-
-
+.icon-facebook {
+	font-size: 2rem;
+}
+.icon-instagram {
+	font-size: 2rem;
+}
+.icon-twitter {
+	font-size: 2rem;
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
 
 
 @media screen and (min-width: 1440px) {
